@@ -1,0 +1,21 @@
+Package: MEGS
+Title: Multi-Environment Genomic Selection
+Version: 0.0.0.9000
+Date: 2025-07-02
+Authors@R: c(
+    person("Liang-Yu", "Chen", , "r12621206@ntu.edu.tw", 
+    role = c("aut", "cre")),
+    person("Chong-An", "Wang", , "r12621209@ntu.edu.tw", role = c("aut")),
+    person("Zi-Jie", "Liu", , "r12621209@ntu.edu.tw", role = c("aut")),
+    person("Chen-Tuo", "Liao", , "ctliao@ntu.edu.tw", role = c("aut", "ths"),
+    comment = c(ORCID = "0000-0001-9777-3701")) )
+Description: This package provides functions to determine optimized training set 
+    and to analysis for genomic selection in multi-environment trials based on 
+    MGE GBLUP model.
+Depands: R (>= 4.5.1), sommer (>= 4.4.1), MASS, stats
+Imports: compiler, parallel
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LazyData: TRUE

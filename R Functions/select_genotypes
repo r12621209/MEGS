@@ -68,7 +68,7 @@ select_genotypes <- function(data, K, n, method = c("maximum", "minimum", "targe
   # Select genotypes
   output <- data.frame()
   for (i in seq_along(n)) {
-    sub_result <- result[data$Env == i & is.na(data$Trait), ]
+    sub_result <- result[data$Env == i & is.na(data$Obs), ]
     
     if (method == "maximum") {
       ordered <- sub_result[order(-sub_result$GEBV), ]
